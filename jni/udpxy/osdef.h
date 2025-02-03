@@ -59,11 +59,13 @@
     #define  Setlinebuf(a) setlinebuf(a)
 #endif
 
-#if defined(HAS_VARRUN)
-    #define PIDFILE_DIR     "/var/run"
-#elif defined(HAS_VARTMP)
-    #define PIDFILE_DIR     "/var/tmp"
-#endif
+// #if defined(HAS_VARRUN)
+//     #define PIDFILE_DIR     "/var/run"
+// #elif defined(HAS_VARTMP)
+//     #define PIDFILE_DIR     "/var/tmp"
+// #endif
+
+#define PIDFILE_DIR "/data/local/tmp"
 
 #endif /* UDPXY_OSDEFH_0101082158 */
 
