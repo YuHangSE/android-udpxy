@@ -29,8 +29,10 @@
 
 #define HAS_SOCKLEN
 #define HAS_SETLINEBUF
+/*
 #define HAS_VARRUN
 #define HAS_VARTMP
+*/
 
 #ifdef __hpux
     #undef HAS_SOCKLEN
