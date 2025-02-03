@@ -25,10 +25,9 @@ jobs:
           cd /home/runner/work/android-udpxy/android-udpxy/jni
           ndk-build
           ls /home/runner/work/android-udpxy/android-udpxy/
-          
   
-      # - name: Save Exec
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: Udpxy
-      #     path: /home/runner/work/android-udpxy/android-udpxy/libs
+      - name: Save Exec
+        uses: actions/upload-artifact@v4
+        with:
+          name: Udpxy
+          path: /home/runner/work/android-udpxy/android-udpxy/libs
