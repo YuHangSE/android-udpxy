@@ -1199,6 +1199,7 @@ udpxy_main( int argc, char* const argv[] )
 /* support for -r -w (file read/write) option is disabled by default;
  * those features are experimental and for dev debugging ONLY
  * */
+#define UDPXY_FILEIO
 #ifdef UDPXY_FILEIO
     static const char UDPXY_OPTMASK[] = "TvSa:l:p:m:c:B:n:R:r:w:H:M:";
 #else
